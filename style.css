@@ -1,0 +1,27 @@
+/* target chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	body {
+		height: 200px;
+			background-color: yellow; 
+			/* For browsers that do not support gradients */
+  			background-image: repeating-linear-gradient(lightyellow, yellow 20%, lightyellow 10%);
+   			/* Standard syntax (must be last) */
+  		 }
+  		 #grant {
+  		 	padding-left: 100px;
+  		 	padding-top: 40px;
+  		 	color: white;
+  		 	font-family: sans-serif;
+
+  		 } 
+  		 header {
+  		 		
+	  		 		height: 250px;
+					  width: 400px;
+					  border-radius: 100%;
+					  background-color: #0000b3; 
+					  /*--For browsers that do not support gradients--*/
+					  background-image: radial-gradient(circle, #0000b3); 
+					  /*--Standard syntax (must be last)--*/
+  		 }
+ }
